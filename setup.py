@@ -13,7 +13,7 @@ setup(
     version="0.0.1",
     license='MIT',
     url='https://github.com/apurvad-wa/SaProt',
-    packages=find_packages(),
+    packages=include_all_files("."),
     include_package_data=True,
     package_data={
         "saprot": include_all_files("."), 
