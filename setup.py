@@ -9,13 +9,13 @@ def include_all_files(directory):
     return file_list
 
 setup(
-    name="saprot",
+    name="SaProt",
     version="0.0.1",
     license='MIT',
     url='https://github.com/apurvad-wa/SaProt',
     packages=include_all_files("."),
     include_package_data=True,
     package_data={
-        "saprot": include_all_files("."), 
+        "SaProt": include_all_files("."), 
     }
 )
